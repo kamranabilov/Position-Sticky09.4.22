@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 98%;
+    height: 95px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 12px;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px;
+    padding-left: 40px;    
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color:  rgba(251, 251, 23, 1);
+    position:absolute;    
+}
+.box-2{
+    width: 750px;
+    height: 50px;
+    background-color: rgba(251, 251, 23, 1);
+    margin-left: 250px;
+    position: absolute;    
+}
+.box-2 .box-a{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(102, 180, 255, 1);
+    margin-left: 30px;
+    margin-top: -9px;
+    position: absolute;
+    bottom: 0;
+}
+.box-2 .box-a .box-alfa{
+    width: 40px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box-2 .box-b{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(102, 180, 255, 1);
+    margin-left: 320px;
+    bottom: 0;
+    position: absolute;
+}
+.box-2 .box-c{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(102, 180, 255, 1);
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+.box-3{
+    width: 90px;
+    height: 50px;
+    background-color: rgba(251, 251, 23, 1);
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+.box-3 .box-d{
+    width: 45px;
+    height: 45px;    
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    border: 3px solid rgba(4, 195, 41, 1);    
+}
